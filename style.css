@@ -1,0 +1,165 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+.first{
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 15%;
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+}
+p{
+    color: dimgray;
+    line-height: 1.5;
+}
+.hello-text{
+    font-size: 55px;
+    font-weight: bold;
+    color: #EC4B79;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+.hero-text{
+    width: 50%;
+    line-height: 1.2;
+}
+.hero-text p{
+    margin-top: 11%;
+    margin-bottom: 9%;
+    text-align: justify;
+}
+.hero-text a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #EC4B79;
+    padding: 12px 38px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+.hero-text a:hover{
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.2);
+    transform: translateY(-3px);
+}
+.hero-image{
+    width: 50%;
+}
+.hero-image img{
+    width: 100%;
+}
+
+                                                            /* section-2 */
+
+.second{
+    background-image: url(img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 15%;
+}
+.hero-sec2{
+    justify-content: space-between;
+}
+.hero-image-sec2{
+    width: 45%;
+}
+.hero-text-sec2{
+    width: 45%;
+}
+
+                                                    /* section-3 */
+
+.third-text{
+    text-align: center;
+    margin-top: 90px;
+}
+.third-text h1{
+    font-weight: 500;
+}
+.third-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.third-image{
+    width: 25%;
+    margin-bottom: 70px;
+    transition: all 0.3s ease;
+}
+.third-image:hover{
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+}
+.third-image img{
+    width: 100%;
+}
+.third{
+    background-image: url(img/latest-work-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+
+                                                        /* section-4 */
+
+
+.four-text{
+    text-align: center;
+}
+.four-text h1{
+    margin-bottom: 8%;
+    font-weight: 500;
+}
+.four-h3{
+    line-height: 70%;
+    margin-bottom: 4%;
+}
+.four-h3 h3{
+    font-weight: 500;
+}
+.four-h3 p{
+    font-size: 14px;
+}
+.four-p{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+.four-p p{
+    color: #000;
+}
+.four-contact{
+    background-color: #EC4B79;
+    width: 45%;
+    margin: 0 auto;
+    padding: 20px 0% 30px 0%;
+    border-radius: 10px;
+}
+.contact-p1{
+    color: #fff;
+    font-size: 13px;
+}
+.contact-p2{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+.four{
+    background-image: url(img/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 24px 0 80px 0;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
